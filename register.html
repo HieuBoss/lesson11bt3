@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<!-- '-' hay su dung nhieu hon so voi '_' 'uppercase' -->
+	<!-- confirm password: confirm-pwd (confirmPwd, confirm_pwd) -->
+	<!-- SEO web: confirm-pwd (confirm + pwd: 2 word), (confirmPwd, confirm_pwd: a word) -->
+	<form method="post" onsubmit="return registerUser()">
+		<div class="form-group">
+			<label>Full Name:</label>
+			<input required type="text" name="fullname" placeholder="Enter fullname" id="fullname_id">
+		</div>
+		<div class="form-group">
+			<label>Age:</label>
+			<input required type="number" name="age" placeholder="Enter age" id="age_id">
+		</div>
+		<div class="form-group">
+			<label>Email:</label>
+			<input required type="email" name="email" placeholder="Enter email" id="email_id">
+		</div>
+		<div class="form-group">
+			<label>Password:</label>
+			<input required type="password" name="pwd" placeholder="Enter pwd" id="pwd_id">
+		</div>
+		<div class="form-group">
+			<label>Confirm Pwd:</label>
+			<input required type="password" name="confirmPwd" placeholder="Enter confirm password" id="confirm_pwd_id">
+		</div>
+		<p>
+			<a href="login.html">I have a account</a>
+		</p>
+		<div class="form-group">
+			<button type="submit">Register</button>
+			<button type="reset">Reset</button>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

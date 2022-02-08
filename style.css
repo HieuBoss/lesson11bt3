@@ -1,0 +1,16 @@
+.container {
+	width: 600px;
+	margin: 0px auto;
+	background-color: orange;
+	padding: 10px;
+}
+
+.form-group input, .form-group label{
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.form-group button {
+	font-size: 18px;
+}

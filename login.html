@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<form method="post" onsubmit="return loginUser()">
+		<div class="form-group">
+			<label>Email:</label>
+			<input required type="email" name="email" placeholder="Enter email" id="email_id">
+		</div>
+		<div class="form-group">
+			<label>Password:</label>
+			<input required type="password" name="pwd" placeholder="Enter pwd" id="pwd_id">
+		</div>
+		<p>
+			<a href="register.html">Create a new account</a>
+		</p>
+		<div class="form-group">
+			<button type="submit">Login</button>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
